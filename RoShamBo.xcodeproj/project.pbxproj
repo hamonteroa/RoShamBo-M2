@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		41A84EF81E11CBA5008AFFC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A84EF71E11CBA5008AFFC9 /* AppDelegate.swift */; };
-		41A84EFA1E11CBA5008AFFC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A84EF91E11CBA5008AFFC9 /* ViewController.swift */; };
+		41A84EFA1E11CBA5008AFFC9 /* RoshamboViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A84EF91E11CBA5008AFFC9 /* RoshamboViewController.swift */; };
 		41A84EFD1E11CBA5008AFFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A84EFB1E11CBA5008AFFC9 /* Main.storyboard */; };
 		41A84EFF1E11CBA5008AFFC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A84EFE1E11CBA5008AFFC9 /* Assets.xcassets */; };
 		41A84F021E11CBA5008AFFC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A84F001E11CBA5008AFFC9 /* LaunchScreen.storyboard */; };
 		41A84F0D1E11CBA5008AFFC9 /* RoShamBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A84F0C1E11CBA5008AFFC9 /* RoShamBoTests.swift */; };
 		41A84F181E11CBA5008AFFC9 /* RoShamBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A84F171E11CBA5008AFFC9 /* RoShamBoUITests.swift */; };
+		41A84F261E11D735008AFFC9 /* RPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A84F251E11D735008AFFC9 /* RPS.swift */; };
+		41A84F281E11D82D008AFFC9 /* RPSMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A84F271E11D82D008AFFC9 /* RPSMatch.swift */; };
+		41DAEA0F1E11DE0300A05A40 /* RoshamboResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DAEA0E1E11DE0300A05A40 /* RoshamboResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		41A84EF41E11CBA5008AFFC9 /* RoShamBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoShamBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A84EF71E11CBA5008AFFC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41A84EF91E11CBA5008AFFC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41A84EF91E11CBA5008AFFC9 /* RoshamboViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboViewController.swift; sourceTree = "<group>"; };
 		41A84EFC1E11CBA5008AFFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41A84EFE1E11CBA5008AFFC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A84F011E11CBA5008AFFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		41A84F131E11CBA5008AFFC9 /* RoShamBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoShamBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A84F171E11CBA5008AFFC9 /* RoShamBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoShamBoUITests.swift; sourceTree = "<group>"; };
 		41A84F191E11CBA5008AFFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A84F251E11D735008AFFC9 /* RPS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPS.swift; sourceTree = "<group>"; };
+		41A84F271E11D82D008AFFC9 /* RPSMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSMatch.swift; sourceTree = "<group>"; };
+		41DAEA0E1E11DE0300A05A40 /* RoshamboResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoshamboResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				41A84EF71E11CBA5008AFFC9 /* AppDelegate.swift */,
-				41A84EF91E11CBA5008AFFC9 /* ViewController.swift */,
+				41A84EF91E11CBA5008AFFC9 /* RoshamboViewController.swift */,
 				41A84EFB1E11CBA5008AFFC9 /* Main.storyboard */,
 				41A84EFE1E11CBA5008AFFC9 /* Assets.xcassets */,
 				41A84F001E11CBA5008AFFC9 /* LaunchScreen.storyboard */,
 				41A84F031E11CBA5008AFFC9 /* Info.plist */,
+				41A84F251E11D735008AFFC9 /* RPS.swift */,
+				41A84F271E11D82D008AFFC9 /* RPSMatch.swift */,
+				41DAEA0E1E11DE0300A05A40 /* RoshamboResultViewController.swift */,
 			);
 			path = RoShamBo;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A84EFA1E11CBA5008AFFC9 /* ViewController.swift in Sources */,
+				41A84EFA1E11CBA5008AFFC9 /* RoshamboViewController.swift in Sources */,
 				41A84EF81E11CBA5008AFFC9 /* AppDelegate.swift in Sources */,
+				41A84F261E11D735008AFFC9 /* RPS.swift in Sources */,
+				41DAEA0F1E11DE0300A05A40 /* RoshamboResultViewController.swift in Sources */,
+				41A84F281E11D82D008AFFC9 /* RPSMatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +517,7 @@
 				41A84F1E1E11CBA5008AFFC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41A84F1F1E11CBA5008AFFC9 /* Build configuration list for PBXNativeTarget "RoShamBoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				41A84F211E11CBA5008AFFC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41A84F221E11CBA5008AFFC9 /* Build configuration list for PBXNativeTarget "RoShamBoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				41A84F241E11CBA5008AFFC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
